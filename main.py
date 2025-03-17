@@ -511,7 +511,7 @@ async def handle_comprobante_input(update: Update, context: ContextTypes.DEFAULT
 # FUNCIÓN PRINCIPAL
 # ---------------------------
 def main() -> None:
-    TOKEN = "7913988104:AAFZCdq2ElFSH-XKbE_e19AAB3ZkWafCXf0"  # Reemplaza con tu token real
+    TOKEN = "8189575388:AAHvLEjJwlKx53yhGVywPKpRDPd_80Qwmp0"  # Reemplaza con tu token real
     application = Application.builder().token(TOKEN).build()
 
     application.add_handler(CommandHandler("start", start))
